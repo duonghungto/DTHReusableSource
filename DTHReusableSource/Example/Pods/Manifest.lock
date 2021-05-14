@@ -1,0 +1,16 @@
+PODS:
+  - DTHReusableSource (0.1.0)
+
+DEPENDENCIES:
+  - DTHReusableSource (from `../`)
+
+EXTERNAL SOURCES:
+  DTHReusableSource:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DTHReusableSource: ceb89c052e90ac12eb6cc2811d33d2c611a19e49
+
+PODFILE CHECKSUM: e194285e344d9e7edc7d397ee7d17ea43aa04701
+
+COCOAPODS: 1.10.1

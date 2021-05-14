@@ -1,0 +1,6 @@
+framework module Pods_DTHReusableSource_Example {
+  umbrella header "Pods-DTHReusableSource_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "DTHReusableSource",
+  "version": "0.1.0",
+  "summary": "A short description of DTHReusableSource.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Duong Hung To/DTHReusableSource",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Duong Hung To": "duongth@heligate.com"
+  },
+  "source": {
+    "git": "https://github.com/Duong Hung To/DTHReusableSource.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "DTHReusableSource/Classes/**/*"
+}
