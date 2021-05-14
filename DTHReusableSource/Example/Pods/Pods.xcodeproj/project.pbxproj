@@ -10,13 +10,17 @@
 		0AB2203FE5088ABF1BA11EB2D5A9DAAA /* Pods-DTHReusableSource_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A467F675620F5AD3EE2A7022DC78503 /* Pods-DTHReusableSource_Tests-dummy.m */; };
 		18BE6C2FF172EF8448BF4717361EAAF1 /* Pods-DTHReusableSource_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AF7AF033E2B6A8C58015C91ED05D5E3 /* Pods-DTHReusableSource_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55C6A46A0F8E5FD93BE9F95A91345E1E /* Pods-DTHReusableSource_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC7F34BD8183D5826D39E3B4DF20E83 /* Pods-DTHReusableSource_Example-dummy.m */; };
-		83E4E5151B727BF585C5A078310A830E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0C4D1D911F3A442C283AF303729BBA /* ReplaceMe.swift */; };
 		BE3F53E5F550E5617B272C6AB9A1F490 /* DTHReusableSource-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3D8A43F83D47F5A34FAE3EC35D64E5 /* DTHReusableSource-dummy.m */; };
 		C6BA95EA82305AE16CBBE167BDDCD176 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C7456F9C30CE713F391F6BC9E582C543 /* DTHReusableSource-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE647F93E3661B82A077AB4EAC9C2BE2 /* DTHReusableSource-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8531D1CC18ECAA5006DB067ED8B4A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E23508DB30284F5BB7DBF05DBDAD2667 /* Pods-DTHReusableSource_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F47081D883A25261754B20E222BAB4B1 /* Pods-DTHReusableSource_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8C0DBDC3F6A48BA56469667B3748D74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA5C0944264E30A300A73F3C /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C0943264E30A300A73F3C /* BaseView.swift */; };
+		FA5C094B264E326600A73F3C /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C094A264E326600A73F3C /* BaseButton.swift */; };
+		FA5C0950264E329500A73F3C /* BaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C094F264E329500A73F3C /* BaseTabBarViewController.swift */; };
+		FA5C0958264E32D800A73F3C /* BaseViewController+StatusBarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C0957264E32D800A73F3C /* BaseViewController+StatusBarStyle.swift */; };
+		FA5C0966264E338400A73F3C /* BaseViewFromXib.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C0965264E338400A73F3C /* BaseViewFromXib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,8 @@
 
 /* Begin PBXFileReference section */
 		0110338D146F21A68F2F27DD6B60AD38 /* Pods-DTHReusableSource_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTHReusableSource_Example-Info.plist"; sourceTree = "<group>"; };
-		0710893D3BF07D7516E240104F01A660 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		150E0FD1321467FA068F4ED5C5585D36 /* Pods_DTHReusableSource_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DTHReusableSource_Example.framework; path = "Pods-DTHReusableSource_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0710893D3BF07D7516E240104F01A660 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		150E0FD1321467FA068F4ED5C5585D36 /* Pods_DTHReusableSource_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTHReusableSource_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18012097D8FFE8ED10E6C6566120C051 /* Pods-DTHReusableSource_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTHReusableSource_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1A467F675620F5AD3EE2A7022DC78503 /* Pods-DTHReusableSource_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTHReusableSource_Tests-dummy.m"; sourceTree = "<group>"; };
 		1FC7F34BD8183D5826D39E3B4DF20E83 /* Pods-DTHReusableSource_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTHReusableSource_Example-dummy.m"; sourceTree = "<group>"; };
@@ -49,20 +53,19 @@
 		3B576146765590E54AF56BA3BA302E85 /* DTHReusableSource.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTHReusableSource.modulemap; sourceTree = "<group>"; };
 		3E64E405770EEFC24DD287872F381B92 /* Pods-DTHReusableSource_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTHReusableSource_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4724B95639C9F4D50A1D163DF1249C11 /* Pods-DTHReusableSource_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTHReusableSource_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4C0832FC8B105BC9A457D83D6EF8F1BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4C0832FC8B105BC9A457D83D6EF8F1BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		55CA50C9EBCEB689D41D1BB21D669E19 /* DTHReusableSource-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DTHReusableSource-Info.plist"; sourceTree = "<group>"; };
 		5D433ABF23CA98D6BFC5BE21EB875A33 /* Pods-DTHReusableSource_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTHReusableSource_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5F3D8A43F83D47F5A34FAE3EC35D64E5 /* DTHReusableSource-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTHReusableSource-dummy.m"; sourceTree = "<group>"; };
 		6318E6761751E82B4C711091698C9374 /* DTHReusableSource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTHReusableSource.debug.xcconfig; sourceTree = "<group>"; };
 		6D9A449B06CC1983952E73DBBD8C08B2 /* Pods-DTHReusableSource_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTHReusableSource_Tests-Info.plist"; sourceTree = "<group>"; };
 		716378932601C73852F49C377C49003C /* DTHReusableSource-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTHReusableSource-prefix.pch"; sourceTree = "<group>"; };
-		727F233E2126FFC8F41DF096A2526BE2 /* Pods_DTHReusableSource_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DTHReusableSource_Tests.framework; path = "Pods-DTHReusableSource_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		727F233E2126FFC8F41DF096A2526BE2 /* Pods_DTHReusableSource_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTHReusableSource_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7D0C4D1D911F3A442C283AF303729BBA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DTHReusableSource/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		9276DD9F5F07E1193FCE3EC1E1C95EA3 /* DTHReusableSource.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DTHReusableSource.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9389CC53D5D5DC3995F3416A0C59983E /* DTHReusableSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTHReusableSource.framework; path = DTHReusableSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9276DD9F5F07E1193FCE3EC1E1C95EA3 /* DTHReusableSource.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DTHReusableSource.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9389CC53D5D5DC3995F3416A0C59983E /* DTHReusableSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTHReusableSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9759D1FAC0C79ECF2BCEF15A2082BC58 /* Pods-DTHReusableSource_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DTHReusableSource_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F084462C152B285ED75AA189FFE9042 /* Pods-DTHReusableSource_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DTHReusableSource_Tests.modulemap"; sourceTree = "<group>"; };
 		AE647F93E3661B82A077AB4EAC9C2BE2 /* DTHReusableSource-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTHReusableSource-umbrella.h"; sourceTree = "<group>"; };
 		D497000845CAD8827809B2ABDC831A3C /* Pods-DTHReusableSource_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTHReusableSource_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -70,6 +73,11 @@
 		E2F6A889BCC6FF27F11E33C4D0DACE93 /* DTHReusableSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTHReusableSource.release.xcconfig; sourceTree = "<group>"; };
 		F47081D883A25261754B20E222BAB4B1 /* Pods-DTHReusableSource_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTHReusableSource_Example-umbrella.h"; sourceTree = "<group>"; };
 		F9E6F924BE75C8C1F5854895602BB538 /* Pods-DTHReusableSource_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTHReusableSource_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA5C0943264E30A300A73F3C /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseView.swift; path = DTHReusableSource/Classes/BaseView.swift; sourceTree = "<group>"; };
+		FA5C094A264E326600A73F3C /* BaseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseButton.swift; path = DTHReusableSource/Classes/BaseButton.swift; sourceTree = "<group>"; };
+		FA5C094F264E329500A73F3C /* BaseTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseTabBarViewController.swift; path = DTHReusableSource/Classes/BaseTabBarViewController.swift; sourceTree = "<group>"; };
+		FA5C0957264E32D800A73F3C /* BaseViewController+StatusBarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BaseViewController+StatusBarStyle.swift"; sourceTree = "<group>"; };
+		FA5C0965264E338400A73F3C /* BaseViewFromXib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewFromXib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,9 +144,13 @@
 		6EED98072E5B974C5831AE3DBB43B473 /* DTHReusableSource */ = {
 			isa = PBXGroup;
 			children = (
-				7D0C4D1D911F3A442C283AF303729BBA /* ReplaceMe.swift */,
 				FBA582CD82C4C4AEF5D6B34F22D82366 /* Pod */,
 				99DF8DE498FA76EEEE66E136BFCFCCBC /* Support Files */,
+				FA5C0943264E30A300A73F3C /* BaseView.swift */,
+				FA5C094A264E326600A73F3C /* BaseButton.swift */,
+				FA5C094F264E329500A73F3C /* BaseTabBarViewController.swift */,
+				FA5C0957264E32D800A73F3C /* BaseViewController+StatusBarStyle.swift */,
+				FA5C0965264E338400A73F3C /* BaseViewFromXib.swift */,
 			);
 			name = DTHReusableSource;
 			path = ../..;
@@ -317,6 +329,12 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "https://duongth.dev";
+				TargetAttributes = {
+					43E3132973FEBD70F07F6F0D1C07DFCD = {
+						LastSwiftMigration = 1240;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,7 +394,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE3F53E5F550E5617B272C6AB9A1F490 /* DTHReusableSource-dummy.m in Sources */,
-				83E4E5151B727BF585C5A078310A830E /* ReplaceMe.swift in Sources */,
+				FA5C094B264E326600A73F3C /* BaseButton.swift in Sources */,
+				FA5C0944264E30A300A73F3C /* BaseView.swift in Sources */,
+				FA5C0958264E32D800A73F3C /* BaseViewController+StatusBarStyle.swift in Sources */,
+				FA5C0950264E329500A73F3C /* BaseTabBarViewController.swift in Sources */,
+				FA5C0966264E338400A73F3C /* BaseViewFromXib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +443,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DTHReusableSource_Tests/Pods-DTHReusableSource_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DTHReusableSource_Tests/Pods-DTHReusableSource_Tests.modulemap";
@@ -432,6 +454,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -492,7 +515,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -520,7 +543,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DTHReusableSource_Example/Pods-DTHReusableSource_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DTHReusableSource_Example/Pods-DTHReusableSource_Example.modulemap";
@@ -531,6 +554,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -552,7 +576,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DTHReusableSource_Example/Pods-DTHReusableSource_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DTHReusableSource_Example/Pods-DTHReusableSource_Example.modulemap";
@@ -563,6 +587,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -585,7 +610,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DTHReusableSource_Tests/Pods-DTHReusableSource_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-DTHReusableSource_Tests/Pods-DTHReusableSource_Tests.modulemap";
@@ -596,6 +621,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -606,6 +632,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E2F6A889BCC6FF27F11E33C4D0DACE93 /* DTHReusableSource.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -617,13 +644,15 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DTHReusableSource/DTHReusableSource-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DTHReusableSource/DTHReusableSource-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DTHReusableSource/DTHReusableSource.modulemap";
 				PRODUCT_MODULE_NAME = DTHReusableSource;
 				PRODUCT_NAME = DTHReusableSource;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -683,13 +712,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -699,6 +727,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6318E6761751E82B4C711091698C9374 /* DTHReusableSource.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -710,14 +739,17 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DTHReusableSource/DTHReusableSource-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DTHReusableSource/DTHReusableSource-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DTHReusableSource/DTHReusableSource.modulemap";
 				PRODUCT_MODULE_NAME = DTHReusableSource;
 				PRODUCT_NAME = DTHReusableSource;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
